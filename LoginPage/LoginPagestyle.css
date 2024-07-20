@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.logo{
+    width: 6.4rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.welcome{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.marg{
+    margin: 0 auto;
+    max-width: 110rem;
+}
+
+.login-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.07);
+}
+
+.stye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.sign-intro{
+    /* border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    padding: 10rem 7rem; */
+    background-image: url(/Modern_3d_illustration_of_Crypto_trading.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.head-text{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.head-para{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.cta{
+    background-color: #fff;
+    width: 25rem;
+    height: 5.5rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.cta:hover{
+    background-color: #093e19;
+    color: #fff;
+}
+
+.btn{
+    width: 25rem;
+    height: 5rem;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #093e19;
+    color: #fff;
+}
+
+.bLogo{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.line{
+    border: 1px solid #fff;
+    width: 60rem;
+}
+
+.sign-up-box{
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    padding-top: 7rem;
+    background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+.labeling{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+}
+
+input {
+    border: none;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.social-icon{
+    /* margin-top: 2rem; */
+}
+
+.social-icon p{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.icon{
+    width: 1.8rem;
+    height: 1.8rem;
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
